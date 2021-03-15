@@ -8,5 +8,5 @@ interface ClientIdGeneratorInterface
     /**
      * Generates a unique client id
      */
-    public function generate(): string;
+    public function generate(): ClientId;
 }
