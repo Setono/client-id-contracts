@@ -1,0 +1,23 @@
+{
+    "name": "setono/client-id-contracts",
+    "type": "library",
+    "description": "Generic abstraction related to client id",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Setono\\ClientId\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
