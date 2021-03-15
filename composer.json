@@ -4,7 +4,7 @@
     "description": "Generic abstraction related to client id",
     "license": "MIT",
     "require": {
-        "php": "^7.4"
+        "php": ">=7.4"
     },
     "config": {
         "sort-packages": true
