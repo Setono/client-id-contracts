@@ -1,7 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Setono\ClientId;
+namespace Setono\ClientId\Generator;
+
+use Setono\ClientId\ClientId;
 
 interface ClientIdGeneratorInterface
 {
