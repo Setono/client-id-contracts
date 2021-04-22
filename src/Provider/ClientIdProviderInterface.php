@@ -7,5 +7,5 @@ use Setono\ClientId\ClientId;
 
 interface ClientIdProviderInterface
 {
-    public function get(): ClientId;
+    public function getClientId(): ClientId;
 }
